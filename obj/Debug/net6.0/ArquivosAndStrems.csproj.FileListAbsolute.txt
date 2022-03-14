@@ -1,0 +1,15 @@
+D:\Projetos\DIO\aulas\dotnet\ArquivosAndStrems\bin\Debug\net6.0\ArquivosAndStrems.exe
+D:\Projetos\DIO\aulas\dotnet\ArquivosAndStrems\bin\Debug\net6.0\ArquivosAndStrems.deps.json
+D:\Projetos\DIO\aulas\dotnet\ArquivosAndStrems\bin\Debug\net6.0\ArquivosAndStrems.runtimeconfig.json
+D:\Projetos\DIO\aulas\dotnet\ArquivosAndStrems\bin\Debug\net6.0\ArquivosAndStrems.dll
+D:\Projetos\DIO\aulas\dotnet\ArquivosAndStrems\bin\Debug\net6.0\ArquivosAndStrems.pdb
+D:\Projetos\DIO\aulas\dotnet\ArquivosAndStrems\obj\Debug\net6.0\ArquivosAndStrems.csproj.AssemblyReference.cache
+D:\Projetos\DIO\aulas\dotnet\ArquivosAndStrems\obj\Debug\net6.0\ArquivosAndStrems.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos\DIO\aulas\dotnet\ArquivosAndStrems\obj\Debug\net6.0\ArquivosAndStrems.AssemblyInfoInputs.cache
+D:\Projetos\DIO\aulas\dotnet\ArquivosAndStrems\obj\Debug\net6.0\ArquivosAndStrems.AssemblyInfo.cs
+D:\Projetos\DIO\aulas\dotnet\ArquivosAndStrems\obj\Debug\net6.0\ArquivosAndStrems.csproj.CoreCompileInputs.cache
+D:\Projetos\DIO\aulas\dotnet\ArquivosAndStrems\obj\Debug\net6.0\ArquivosAndStrems.dll
+D:\Projetos\DIO\aulas\dotnet\ArquivosAndStrems\obj\Debug\net6.0\refint\ArquivosAndStrems.dll
+D:\Projetos\DIO\aulas\dotnet\ArquivosAndStrems\obj\Debug\net6.0\ArquivosAndStrems.pdb
+D:\Projetos\DIO\aulas\dotnet\ArquivosAndStrems\obj\Debug\net6.0\ArquivosAndStrems.genruntimeconfig.cache
+D:\Projetos\DIO\aulas\dotnet\ArquivosAndStrems\obj\Debug\net6.0\ref\ArquivosAndStrems.dll
