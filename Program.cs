@@ -17,8 +17,10 @@ namespace ArquivosAndStrems
             Console.WriteLine(" Escolha uma opção");
             Console.WriteLine(" 1 - Read csv");
             Console.WriteLine(" 2 - Write csv ");
-            Console.WriteLine(" 3 -  ");
-            Console.WriteLine(" 4 - o ");
+            Console.WriteLine(" 3 - Create arquivo .txt ");
+            Console.WriteLine(" 4 - Write arquivo .txt ");
+            Console.WriteLine(" 5 - Read arquivo .txt ");
+            Console.WriteLine(" 6 - o ");
             Console.WriteLine(" 0  - Finalizar ");
             Console.WriteLine("-----------------------");
 
@@ -30,6 +32,7 @@ namespace ArquivosAndStrems
             }
 
             var csv = new csvStream();
+            
 
             switch (option)
             {
@@ -44,9 +47,14 @@ namespace ArquivosAndStrems
                     break;
 
                 case 2:
-
-
                     csv.WriteFileCsv(pathSaida);
+                    break;
+
+                case 3:
+                    file.CreateFile();
+                    break;
+                case 4:
+
                     break;
 
                 default:

@@ -16,7 +16,7 @@ class MyFiles
         return false;
     }
 
-    public void demoCreateFile()
+    public void CreateFile()
     {
 
         WriteLine("Digite o nome do arquivo");
