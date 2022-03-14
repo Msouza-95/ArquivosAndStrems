@@ -28,8 +28,9 @@ class MyFiles
             name = this.ClearName(name);
 
             var path = Path.Combine(Environment.CurrentDirectory, $"{name}.txt");
+        
             // ou sddim : var path = Path.Combine(@"C:/" ,"teste.txt" );
-
+              this.WriteFile(path);
 
         }
         else
@@ -74,7 +75,7 @@ class MyFiles
     }
 
 
-    public void demoCreateDirectory()
+    public void CreateDirectory()
     {
 
         var path = Path.Combine(Environment.CurrentDirectory, "globo");
@@ -197,8 +198,6 @@ class MyFiles
     public void ReadFile(string path)
     {
 
-
-
         var files = Directory.GetFiles(path, "*", SearchOption.AllDirectories);
 
         foreach (var file in files)
@@ -213,7 +212,7 @@ class MyFiles
         }
     }
 
-    static void Watcher(string path)
+    public void Watcher(string path)
     {
 
         using var fsw = new FileSystemWatcher(path);
@@ -224,7 +223,7 @@ class MyFiles
 
         fsw.EnableRaisingEvents = true; // habiliat para escutar os eventos;
         fsw.IncludeSubdirectories = true;
-
+        Console.WriteLine("Listen Directory: [Enter] to Finish");
         Console.ReadLine();
 
 

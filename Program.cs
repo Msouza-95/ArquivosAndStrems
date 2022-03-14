@@ -17,10 +17,10 @@ namespace ArquivosAndStrems
             Console.WriteLine(" Escolha uma opção");
             Console.WriteLine(" 1 - Read csv");
             Console.WriteLine(" 2 - Write csv ");
-            Console.WriteLine(" 3 - Create arquivo .txt ");
-            Console.WriteLine(" 4 - Write arquivo .txt ");
-            Console.WriteLine(" 5 - Read arquivo .txt ");
-            Console.WriteLine(" 6 - o ");
+            Console.WriteLine(" 3 - Create and Write arquivo .txt ");
+            Console.WriteLine(" 4 - Read arquivo .txt and show details ");
+            Console.WriteLine(" 5 - Create dir ");
+            Console.WriteLine(" 6 - Listen dir");
             Console.WriteLine(" 0  - Finalizar ");
             Console.WriteLine("-----------------------");
 
@@ -54,9 +54,16 @@ namespace ArquivosAndStrems
                     file.CreateFile();
                     break;
                 case 4:
-
+                    var pathRead = Path.Combine(Environment.CurrentDirectory);
+                    file.ReadFile(pathRead); 
                     break;
-
+                 case 5:
+                    file.CreateDirectory(); 
+                    break;
+                case 6:
+                    var pathListen = Path.Combine(Environment.CurrentDirectory);
+                    file.Watcher(pathListen); 
+                    break;
                 default:
                     Console.WriteLine("Opção invalida");
                     break;
