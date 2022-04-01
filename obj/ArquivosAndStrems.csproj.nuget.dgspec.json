@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projetos\\DIO\\aulas\\dotnet\\ArquivosAndStrems\\ArquivosAndStrems.csproj": {}
+    "D:\\Projetos\\DIO\\aulas\\dotNet\\ArquivosAndStrems\\ArquivosAndStrems.csproj": {}
   },
   "projects": {
-    "D:\\Projetos\\DIO\\aulas\\dotnet\\ArquivosAndStrems\\ArquivosAndStrems.csproj": {
+    "D:\\Projetos\\DIO\\aulas\\dotNet\\ArquivosAndStrems\\ArquivosAndStrems.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\DIO\\aulas\\dotnet\\ArquivosAndStrems\\ArquivosAndStrems.csproj",
+        "projectUniqueName": "D:\\Projetos\\DIO\\aulas\\dotNet\\ArquivosAndStrems\\ArquivosAndStrems.csproj",
         "projectName": "ArquivosAndStrems",
-        "projectPath": "D:\\Projetos\\DIO\\aulas\\dotnet\\ArquivosAndStrems\\ArquivosAndStrems.csproj",
+        "projectPath": "D:\\Projetos\\DIO\\aulas\\dotNet\\ArquivosAndStrems\\ArquivosAndStrems.csproj",
         "packagesPath": "C:\\Users\\MSOUZA\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\DIO\\aulas\\dotnet\\ArquivosAndStrems\\obj\\",
+        "outputPath": "D:\\Projetos\\DIO\\aulas\\dotNet\\ArquivosAndStrems\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MSOUZA\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,6 +37,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[27.2.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

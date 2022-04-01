@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Hgu1v/RmDzahZth2Dbc1JP3TYJ/LhqIeQ7YxNGF9unvCapWO2mfaKAQ9uUkIyjL5qHaKIvEc5ItVhAhqttkkZw==",
+  "dgSpecHash": "rAMqrvMBGbID6s/cG+HuIq69iOBUIw8RRZoCZPe2hL5JYkud4bbHijV3G3fX0dlF03a0KVebvW4xI0LRJf6+9A==",
   "success": true,
-  "projectFilePath": "D:\\Projetos\\DIO\\aulas\\dotnet\\ArquivosAndStrems\\ArquivosAndStrems.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\Projetos\\DIO\\aulas\\dotNet\\ArquivosAndStrems\\ArquivosAndStrems.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MSOUZA\\.nuget\\packages\\csvhelper\\27.2.1\\csvhelper.27.2.1.nupkg.sha512"
+  ],
   "logs": []
 }

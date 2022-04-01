@@ -13,3 +13,5 @@ D:\Projetos\DIO\aulas\dotnet\ArquivosAndStrems\obj\Debug\net6.0\refint\ArquivosA
 D:\Projetos\DIO\aulas\dotnet\ArquivosAndStrems\obj\Debug\net6.0\ArquivosAndStrems.pdb
 D:\Projetos\DIO\aulas\dotnet\ArquivosAndStrems\obj\Debug\net6.0\ArquivosAndStrems.genruntimeconfig.cache
 D:\Projetos\DIO\aulas\dotnet\ArquivosAndStrems\obj\Debug\net6.0\ref\ArquivosAndStrems.dll
+D:\Projetos\DIO\aulas\dotNet\ArquivosAndStrems\bin\Debug\net6.0\CsvHelper.dll
+D:\Projetos\DIO\aulas\dotNet\ArquivosAndStrems\obj\Debug\net6.0\ArquivosAndStrems.csproj.CopyComplete

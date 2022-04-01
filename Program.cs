@@ -21,6 +21,7 @@ namespace ArquivosAndStrems
             Console.WriteLine(" 4 - Read arquivo .txt and show details ");
             Console.WriteLine(" 5 - Create dir ");
             Console.WriteLine(" 6 - Listen dir");
+            Console.WriteLine(" 7 - read with csvHelper");
             Console.WriteLine(" 0  - Finalizar ");
             Console.WriteLine("-----------------------");
 
@@ -64,6 +65,11 @@ namespace ArquivosAndStrems
                     var pathListen = Path.Combine(Environment.CurrentDirectory);
                     file.Watcher(pathListen); 
                     break;
+                case 7:
+                    var patHelper =Path.Combine(Environment.CurrentDirectory, "csv", "Entrada", "Produtos.csv");
+                    var myCsvHelper = new MyCsvHelper();
+                    myCsvHelper.readCsv(patHelper);
+                    break ;
                 default:
                     Console.WriteLine("Opção invalida");
                     break;
