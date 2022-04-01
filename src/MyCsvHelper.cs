@@ -20,17 +20,21 @@ public class MyCsvHelper
 
         using var sr = new StreamReader(fi.FullName);
 
-        var csvConfig = new CsvHelper.Configuration.CsvConfiguration(CultureInfo.InvariantCulture);
+        var csvConfig = new CsvHelper.Configuration.CsvConfiguration(CultureInfo.InvariantCulture){
+        Delimiter = ","
+        };
 
         using var csvReader = new CsvReader(sr, csvConfig);
 
+       
+        // NO lugar do dynamic pode ser passado uma classe para maper de acordo com os seus artibutos 
         var registros = csvReader.GetRecords<dynamic>();
 
         foreach (var registro in registros)
         {
 
             Console.WriteLine("----------------------------");
-            Console.WriteLine($"nome:{registro.Produto}");
+            Console.WriteLine($"nome:{registro.Nome}");
             Console.WriteLine($"marca:{registro.Marca}");
             Console.WriteLine($"preço:{registro.Preco}");
             Console.WriteLine("----------------------------");
